@@ -1,0 +1,466 @@
+/* @font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../fonts/Roboto-Medium.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/Roboto-Light.ttf) format(truetype);
+} */
+
+.nombre{
+  color: white;
+  text-align: center;
+  font-family: 'sanchez-niu-regular', sans-serif;
+  
+}
+title{
+  color: white;
+}
+h1 {
+  font-family: Roboto-Bold;
+  font-size: 39px;
+}
+
+h2 {
+  font-family: Roboto-Medium;
+  font-size: 29px;
+  text-align: center;
+  margin: 1px;
+}
+
+
+.c2 > p {
+  font-family: Roboto-Light;
+  font-size: 15px;
+  line-height: 20px;
+  width: 296px;
+  margin-bottom: 37px;
+  font-family: 'sanchez-niu-regular', sans-serif
+}
+
+.c3 > p{
+  font-family: Roboto-Light;
+  font-size: 13px;
+  line-height: 20px;
+  width: 296px;
+  margin-bottom: 37px;
+  font-family: 'sanchez-niu-regular', sans-serif;
+}
+
+hr{
+  height: 3px;
+  background-color: #ff0062ce;
+margin: 4px;
+}
+
+/* .foto {
+  height: 100px;
+  width: 100px;
+  size: 100px;
+}
+
+ */#container {
+  border: 2px solid black;
+ /* background: linear-gradient(120deg, #1a1b2f,#1c1e33,#1d3655,#1f4069,#204068, #325681);*/
+  background: linear-gradient(120deg, #000000, #170b2a, #1f104f,#1f104f, #241178, #2510a3);
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  width: 1050px;
+  height: 1096px;
+  margin-left: 285px;
+  border-radius:2px;
+  box-shadow: 5px 0px 20px 5px rgb(33, 33, 33);
+  margin-bottom: 100px;
+}
+
+footer {
+  text-align: center;
+  color: #c7c2f7 ;
+  background-color: #313239;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+/* .iron {
+  border: 1px solid #000000;
+  padding: 20px;
+  flex-direction: column;
+  width: auto; 
+  background-color: #000000;
+} */
+
+.foto{
+  margin-top: 40px;
+    width: 342px;
+    margin-right: 100px;
+    height: 300px;
+    border-radius: 150px;
+    margin-right: 3px;
+    margin-right: 20px;
+}
+
+.nmbreyprof{
+  text-align: center;
+  position: absolute;
+  top: 440px;
+  color: whitesmoke;
+  left: 363px;
+}
+
+.nombre{ margin-bottom:1px; font-size: 40px; text-align: center;}
+.alias {margin-bottom: 27px;  font-family: 'sanchez-niu-regular', sans-serif;}
+.profesion{ margin-bottom: 44px; font-family: 'sanchez-niu-regular', sans-serif; font-size: 17px;}
+.magnate { margin-bottom: 1px; text-align: center;  font-family: 'sanchez-niu-regular', sans-serif; }
+.hrProf{justify-content: center ; width: 100% ;background-color: white; height: 0.000001px;}
+.datos {
+  position: absolute;
+  left: 340px;
+  top: 700px;
+  color: whitesmoke;
+  font-size: 21px;
+  text-align: center;
+  font-family: 'sanchez-niu-regular', sans-serif;
+}
+.icono{
+  font-size: 30px;
+  margin-bottom: 0.0000001px;
+}
+
+.c2 {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #fcfcf8;
+  margin-left: 10px;
+  padding-top: 5px;
+  flex-direction: column;
+  width: 296px; /* en evs d usar el width puse flex-grow: # ya q asi c ajustan los items al contenedor */
+  flex-flow: wrap;
+  box-shadow: 8px 8px 20px 5px rgb(33, 33, 33);
+}
+
+.c3 {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #fcfcf8;
+  width: 300px;
+  padding-top: 5px;
+  flex-direction: column;
+  flex-flow: wrap;
+  box-shadow: 5px 8px 20px 5px rgb(33, 33, 33); /* pude haber flex-shrink: # para hacer q ocupara un espacio determinado en el contenedor y no c moviera aunq los demas si */
+/*LOS WIDTHS PERO EN FLEX:*/
+  /*felx-shrink sirve paradeterminar hasta cuanto c puede esncoger uno d los leementos*/
+/* flex-basis para establecerle un minmo*/
+}
+
+.WE1 {
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.año1{
+  align-self: center;margin-right: 20px;
+  line-height: 24px;
+}
+
+.ED1{
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.año2{
+  align-self: center; margin-right: 20px;
+  line-height: 24px;
+}
+
+.parrafosrebeldes{
+  font-family: 'sanchez-niu-regular', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+.company{
+  border-left: 1px solid black;
+  padding-left: 20px;
+  
+}
+.university {
+  border-left: 1px solid black;
+  padding-left: 20px;
+
+}
+.skills{
+  flex-flow: wrap row;
+  display: flex;
+}
+
+.languages{
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.skill1{
+  position: absolute;
+  top: 272px;
+  left: 1060px;
+}
+.skill2 { /*estos pudieron haber sido space between d justify , yn un space around de align content*/
+  position: absolute;
+  top: 272px;
+  left: 1233px ;
+  flex-wrap: nowrap;
+}
+.skill2-1{
+  position: absolute;
+  top: 284px;
+  left: 1224px;
+  flex-wrap: nowrap;
+}
+.skill3{
+  position: absolute;
+  top: 415px;
+  left: 1109px;
+}
+.skill4{
+  position: absolute;
+  top: 411px;
+  left: 1233px;
+}
+.skill4-1{
+  position: absolute;
+  top: 424px;
+  left: 1204px;
+}
+.skill5{
+  position: absolute;
+  top: 555px;
+  left: 1097px;
+}
+.skill6{
+  position: absolute;
+  top: 552px;
+  left: 1225px;
+}
+.skill6-1{
+  position: absolute;
+  top:567px ;
+  left: 1234px;
+}
+
+.lang1{
+  position: absolute;
+  top: 772px;
+  left: 1109px;
+}
+.lang2{
+  position: absolute;
+  top: 788px;
+  left: 1244px;
+}
+
+.lang3{
+  position: absolute;
+  top: 929px;
+  left: 1105px;
+}
+.lang4{
+  position: absolute;
+  top: 929px;
+  left: 1238px;
+}
+/*PROGRESS CIRCLES*/
+.progress-circle {
+  font-size: 20px;
+  margin: 20px;
+  position: relative; /* so that children can be absolutely positioned */
+  padding: 0;
+  width: 5em;
+  height: 5em;
+  background-color: #F2E9E1; 
+  border-radius: 50%;
+  line-height: 5em;
+}
+
+.progress-circle:after{
+   border: none;
+   position: absolute;
+   top: 0.35em;
+   left: 0.35em;
+   text-align: center;
+   display: block;
+   border-radius: 50%;
+   width: 4.3em;
+   height: 4.3em;
+   background-color: white;
+   content: " ";
+}
+/* Text inside the control */
+.progress-circle span {
+   position: absolute;
+   line-height:5em; /* los numeritos adentro */
+   width: 5em;
+   text-align: center;
+   display: block;
+   color: #53777A;
+   z-index: 2;
+}
+
+.left-half-clipper { 
+  /* a round circle */
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  position: absolute; /* needed for clipping */
+  clip: rect(0, 5em, 5em, 2.5em); /* clips the whole left half*/ 
+}
+/* when p>50, don't clip left half*/
+.progress-circle.over50 .left-half-clipper {
+  clip: rect(auto,auto,auto,auto);
+}
+.value-bar {
+  /*This is an overlayed square, that is made round with the border radius,
+  then it is cut to display only the left half, then rotated clockwise
+  to escape the outer clipping path.*/ 
+  position: absolute; /*needed for clipping*/
+  clip: rect(0, 2.5em, 5em, 0);
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 0.45em solid #53777A; /*The border is 0.35 but making it larger removes visual artifacts */
+  /*background-color: #4D642D;*/ /* for debug */
+  box-sizing: border-box;
+ 
+}
+/* Progress bar filling the whole right half for values above 50% */
+.progress-circle.over50 .first50-bar {
+  /*Progress bar for the first 50%, filling the whole right half*/
+  position: absolute; /*needed for clipping*/
+  clip: rect(0, 5em, 5em, 2.5em);
+  background-color: #53777A;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
+.progress-circle:not(.over50) .first50-bar{ display: none; }
+
+
+/* Progress bar rotation position */
+.progress-circle.p0 .value-bar { display: none; }
+.progress-circle.p1 .value-bar { transform: rotate(4deg); }
+.progress-circle.p2 .value-bar { transform: rotate(7deg); }
+.progress-circle.p3 .value-bar { transform: rotate(11deg); }
+.progress-circle.p4 .value-bar { transform: rotate(14deg); }
+.progress-circle.p5 .value-bar { transform: rotate(18deg); }
+.progress-circle.p6 .value-bar { transform: rotate(22deg); }
+.progress-circle.p7 .value-bar { transform: rotate(25deg); }
+.progress-circle.p8 .value-bar { transform: rotate(29deg); }
+.progress-circle.p9 .value-bar { transform: rotate(32deg); }
+.progress-circle.p10 .value-bar { transform: rotate(36deg); }
+.progress-circle.p11 .value-bar { transform: rotate(40deg); }
+.progress-circle.p12 .value-bar { transform: rotate(43deg); }
+.progress-circle.p13 .value-bar { transform: rotate(47deg); }
+.progress-circle.p14 .value-bar { transform: rotate(50deg); }
+.progress-circle.p15 .value-bar { transform: rotate(54deg); }
+.progress-circle.p16 .value-bar { transform: rotate(58deg); }
+.progress-circle.p17 .value-bar { transform: rotate(61deg); }
+.progress-circle.p18 .value-bar { transform: rotate(65deg); }
+.progress-circle.p19 .value-bar { transform: rotate(68deg); }
+.progress-circle.p20 .value-bar { transform: rotate(72deg); }
+.progress-circle.p21 .value-bar { transform: rotate(76deg); }
+.progress-circle.p22 .value-bar { transform: rotate(79deg); }
+.progress-circle.p23 .value-bar { transform: rotate(83deg); }
+.progress-circle.p24 .value-bar { transform: rotate(86deg); }
+.progress-circle.p25 .value-bar { transform: rotate(90deg); }
+.progress-circle.p26 .value-bar { transform: rotate(94deg); }
+.progress-circle.p27 .value-bar { transform: rotate(97deg); }
+.progress-circle.p28 .value-bar { transform: rotate(101deg); }
+.progress-circle.p29 .value-bar { transform: rotate(104deg); }
+.progress-circle.p30 .value-bar { transform: rotate(108deg); }
+.progress-circle.p31 .value-bar { transform: rotate(112deg); }
+.progress-circle.p32 .value-bar { transform: rotate(115deg); }
+.progress-circle.p33 .value-bar { transform: rotate(119deg); }
+.progress-circle.p34 .value-bar { transform: rotate(122deg); }
+.progress-circle.p35 .value-bar { transform: rotate(126deg); }
+.progress-circle.p36 .value-bar { transform: rotate(130deg); }
+.progress-circle.p37 .value-bar { transform: rotate(133deg); }
+.progress-circle.p38 .value-bar { transform: rotate(137deg); }
+.progress-circle.p39 .value-bar { transform: rotate(140deg); }
+.progress-circle.p40 .value-bar { transform: rotate(144deg); }
+.progress-circle.p41 .value-bar { transform: rotate(148deg); }
+.progress-circle.p42 .value-bar { transform: rotate(151deg); }
+.progress-circle.p43 .value-bar { transform: rotate(155deg); }
+.progress-circle.p44 .value-bar { transform: rotate(158deg); }
+.progress-circle.p45 .value-bar { transform: rotate(162deg); }
+.progress-circle.p46 .value-bar { transform: rotate(166deg); }
+.progress-circle.p47 .value-bar { transform: rotate(169deg); }
+.progress-circle.p48 .value-bar { transform: rotate(173deg); }
+.progress-circle.p49 .value-bar { transform: rotate(176deg); }
+.progress-circle.p50 .value-bar { transform: rotate(180deg); }
+.progress-circle.p51 .value-bar { transform: rotate(184deg); }
+.progress-circle.p52 .value-bar { transform: rotate(187deg); }
+.progress-circle.p53 .value-bar { transform: rotate(191deg); }
+.progress-circle.p54 .value-bar { transform: rotate(194deg); }
+.progress-circle.p55 .value-bar { transform: rotate(198deg); }
+.progress-circle.p56 .value-bar { transform: rotate(202deg); }
+.progress-circle.p57 .value-bar { transform: rotate(205deg); }
+.progress-circle.p58 .value-bar { transform: rotate(209deg); }
+.progress-circle.p59 .value-bar { transform: rotate(212deg); }
+.progress-circle.p60 .value-bar { transform: rotate(216deg); }
+.progress-circle.p61 .value-bar { transform: rotate(220deg); }
+.progress-circle.p62 .value-bar { transform: rotate(223deg); }
+.progress-circle.p63 .value-bar { transform: rotate(227deg); }
+.progress-circle.p64 .value-bar { transform: rotate(230deg); }
+.progress-circle.p65 .value-bar { transform: rotate(234deg); }
+.progress-circle.p66 .value-bar { transform: rotate(238deg); }
+.progress-circle.p67 .value-bar { transform: rotate(241deg); }
+.progress-circle.p68 .value-bar { transform: rotate(245deg); }
+.progress-circle.p69 .value-bar { transform: rotate(248deg); }
+.progress-circle.p70 .value-bar { transform: rotate(252deg); }
+.progress-circle.p71 .value-bar { transform: rotate(256deg); }
+.progress-circle.p72 .value-bar { transform: rotate(259deg); }
+.progress-circle.p73 .value-bar { transform: rotate(263deg); }
+.progress-circle.p74 .value-bar { transform: rotate(266deg); }
+.progress-circle.p75 .value-bar { transform: rotate(270deg); }
+.progress-circle.p76 .value-bar { transform: rotate(274deg); }
+.progress-circle.p77 .value-bar { transform: rotate(277deg); }
+.progress-circle.p78 .value-bar { transform: rotate(281deg); }
+.progress-circle.p79 .value-bar { transform: rotate(284deg); }
+.progress-circle.p80 .value-bar { transform: rotate(288deg); }
+.progress-circle.p81 .value-bar { transform: rotate(292deg); }
+.progress-circle.p82 .value-bar { transform: rotate(295deg); }
+.progress-circle.p83 .value-bar { transform: rotate(299deg); }
+.progress-circle.p84 .value-bar { transform: rotate(302deg); }
+.progress-circle.p85 .value-bar { transform: rotate(306deg); }
+.progress-circle.p86 .value-bar { transform: rotate(310deg); }
+.progress-circle.p87 .value-bar { transform: rotate(313deg); }
+.progress-circle.p88 .value-bar { transform: rotate(317deg); }
+.progress-circle.p89 .value-bar { transform: rotate(320deg); }
+.progress-circle.p90 .value-bar { transform: rotate(324deg); }
+.progress-circle.p91 .value-bar { transform: rotate(328deg); }
+.progress-circle.p92 .value-bar { transform: rotate(331deg); }
+.progress-circle.p93 .value-bar { transform: rotate(335deg); }
+.progress-circle.p94 .value-bar { transform: rotate(338deg); }
+.progress-circle.p95 .value-bar { transform: rotate(342deg); }
+.progress-circle.p96 .value-bar { transform: rotate(346deg); }
+.progress-circle.p97 .value-bar { transform: rotate(349deg); }
+.progress-circle.p98 .value-bar { transform: rotate(353deg); }
+.progress-circle.p99 .value-bar { transform: rotate(356deg); }
+.progress-circle.p100 .value-bar { transform: rotate(360deg); }
+
+
+
+
